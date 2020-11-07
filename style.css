@@ -1,0 +1,113 @@
+#card{
+    height: 300px;
+    width: 200px;
+    margin: auto;
+    position: relative;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.02);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#watch{
+    width: 170px;
+    height: 170px;
+    margin: auto;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    border: 1px solid hotpink;
+    /* background-color: white; */
+    border-radius: 100px;
+}
+
+#caln{
+    height: 80px;
+    width: 200px;
+    background-color: hotpink;
+    position: absolute;
+    bottom: 0px;
+}
+
+.time-number{
+    position: absolute;
+    color: hotpink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+}
+
+#xii{
+    top: 0px;
+    left: 80px;
+}
+#vi{
+    bottom: 0px;
+    left: 80px;
+}
+#iii{
+    top: 80px;
+    right: 0px;
+}
+#ix{
+    top: 80px;
+    left: 0px;
+}
+
+#center{
+    position: absolute;
+    top: 84px;
+    left: 84px;
+    width: 5px;
+    height: 5px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    background: orangered;
+    z-index: 20;
+}
+.hands{
+    position: absolute;
+    transform: rotate(180deg);
+    transform-origin: top center;
+}
+#second-hand{
+    height: 84px;
+    width: 1px;
+    background-color: orangered; 
+    left: 2px;
+    top: 2px;
+    z-index: 10;
+    
+    
+}
+#minute-hand{
+    height: 74px;
+    width: 3px;
+    background-color: grey;
+    left: 1px;
+    top: 1px;
+    z-index: 9;
+}
+#hour-hand{
+    height: 64px;
+    width: 5px;
+    background-color: black;
+    z-index: 8;
+}
+#day{
+    color: black;
+    font-size: 30px;
+    padding: 5px;
+    padding-left: 20px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 0px;
+}
+#date{
+    color: black;
+    font-size: 12px;
+    padding: 5px;
+    padding-left: 20px;
+    position: absolute;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    top: 35px;
+    
+}
